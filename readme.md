@@ -39,7 +39,7 @@ readme文件可以是TXT文档，也可以是md文档
 1.在gitup创建一个远程仓库  git2020
 2.本地工作区先提交到本地仓库
 
-3.本地仓库和远程仓库关联
+##3.本地仓库和远程仓库关联
 $ git remote add origin https://github.com/SeeUzq/git2020.git
 origin 相当于一个变量 
 4.git remote -v 查看本地仓库所关联的远程仓库地址
@@ -68,6 +68,8 @@ jalhfsl
 
 12
 dev分支代码修改
+
+
 
 
 
