@@ -41,11 +41,25 @@ readme文件可以是TXT文档，也可以是md文档
 
 3.本地仓库和远程仓库关联
 $ git remote add origin https://github.com/SeeUzq/git2020.git
-
+origin 相当于一个变量 
 4.git remote -v 查看本地仓库所关联的远程仓库地址
 5.git push -u origin master
 git push把本地仓库推送到远程仓库
 -u origin master 设置默认提交master分支到origin
+
+6.git push -u -f origin master 强制推送到远程 （不推荐，当远程仓库不是空的仓库时（比如添加新仓库时勾了readme），导致本地仓库无法正常推送）
+
+
+##下载项目到本地
+版本库——初始化  ，将本地仓库和远程仓库绑定在一起了
+
+
+git clone 适用于本地没有，
+3.从远程更新达到本地仓库，直接更新命令，git fetch ， 不会自动merge
+4.一定要养成工作区的修改提交到到本地仓库，更新远程到本地
+
+
+
 
 
 
