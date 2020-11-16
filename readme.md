@@ -47,7 +47,7 @@ origin 相当于一个变量
 git push把本地仓库推送到远程仓库
 -u origin master 设置默认提交master分支到origin
 
-6.git push -u -f origin master 强制推送到远程 （不推荐，当远程仓库不是空的仓库时（比如添加新仓库时勾了readme），导致本地仓库无法正常推送）
+##6.git push -u -f origin master 强制推送到远程 （不推荐，当远程仓库不是空的仓库时（比如添加新仓库时勾了readme），导致本地仓库无法正常推送）
 
 
 ##下载项目到本地
@@ -66,8 +66,19 @@ jalhfsl
 2.可以在线编辑，将导致本地和线上不一致。
 
 
-12
-dev分支代码修改
+
+##
+6. new SSH key
+7．粘贴复制的id_rsa.pub文件内容8.点击 add ssh key
+9．本地仓库和远程仓库关联(使用ssh地址)10．重新配置origin
+11．删除原来的配置: git remote rm origin
+12．添加新的关联:git remote add origin ssh地址
+
+## git忽略列表
+1.创建文件
+2.忽略文件列表
+3.在忽略列表中列出不需要提交到版本库的文件及目录
+
 
 
 
