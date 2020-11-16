@@ -29,4 +29,5 @@ readme文件可以是TXT文档，也可以是md文档
 1.命令 git status 查看当前目录下的新
 2.git log 查看日志  哈希值，唯一
 3.git reflog 查看简版日志——哈希值只有7位
-4.
+
+新加版本git
