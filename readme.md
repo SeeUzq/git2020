@@ -47,6 +47,8 @@ $ git remote add origin https://github.com/SeeUzq/git2020.git
 git push把本地仓库推送到远程仓库
 -u origin master 设置默认提交master分支到origin
 
+1.每天更新代码
+2.可以在线编辑，将导致本地和线上不一致。
 
 
 
