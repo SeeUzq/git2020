@@ -47,7 +47,6 @@ origin 相当于一个变量
 git push把本地仓库推送到远程仓库
 -u origin master 设置默认提交master分支到origin
 
-<<<<<<< HEAD
 6.git push -u -f origin master 强制推送到远程 （不推荐，当远程仓库不是空的仓库时（比如添加新仓库时勾了readme），导致本地仓库无法正常推送）
 
 
@@ -68,6 +67,7 @@ jalhfsl
 
 
 12
+dev分支代码
 
 
 
